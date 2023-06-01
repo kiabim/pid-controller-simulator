@@ -7,11 +7,6 @@ from tkinter import *
 from customtkinter import *
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-import pyautogui
-
-
-
-
 def obter_dados():
     num_str   = entry_num.get()
     den_str   = entry_den.get()
