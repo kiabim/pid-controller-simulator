@@ -20,6 +20,11 @@ The main objective of this project is to create a simple simulator for testing c
 
  For professionals working with PID controllers, it is well-known that many of the techniques used for tuning these controllers rely on empirical approaches, essentially involving trial and error. Consequently, even after applying tuning techniques, there is no guarantee that the system response will meet the user's expectations. Therefore, it becomes crucial to make adjustments to ensure that the user's desired outcome is achieved.
 
+  <div align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*K_yaMyOkUNJzBpjutSmpwQ.png" width="50%"/>
+  </div>
+  
+  
   $$
   \
 u(t) = K_p \cdot e(t) + K_i \cdot \int_{0}^{t} e(\tau) d\tau + K_d \cdot \frac{d}{dt} e(t)
