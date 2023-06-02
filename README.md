@@ -1,4 +1,4 @@
-# Welcome to My First Python Project
+# Welcome to My First Python Project :student:
 
 This project focuses on elementary yet fundamental elements for those working with PID controllers.
 
@@ -6,7 +6,7 @@ This project focuses on elementary yet fundamental elements for those working wi
   <img src="https://github.com/kiabim/pid-controller-simulator/assets/134725155/14a84dfe-5c3e-43ca-9cba-2b99a69e074d"/>
   </div>
 
-## Objective
+## Objective :blue_book:
 
 <div align="justify">
 
@@ -14,7 +14,7 @@ The main objective of this project is to create a simple simulator for testing c
   
   </div>
 
-## The Need for a PID Simulator
+## The Need for a PID Simulator :earth_americas:
 
 <div align="justify">
 
@@ -29,7 +29,7 @@ In summary, this project aims to streamline and optimize the operator's time by 
 
 
 
-## How the PID Control Simulator Works
+## How the PID Control Simulator Works :brain:
 <div align="justify">
 
 Before delving into the simulator's functioning, it's important to grasp the concept of a controller in general, not limited to just the PID controller. A controller receives input information (our reference signal) and makes modifications to the process to ensure the desired output value is achieved. Although it is not always possible due to various factors, that aspect is beyond the scope of this discussion. In essence, if we desire a temperature of X, the controller will work to ensure that the process's temperature reaches X.
@@ -44,7 +44,7 @@ $$
 
 Typically, every process can be mathematically represented by a model to conduct tests before practical implementation. For example, launching a space rocket incurs high production costs and poses significant risks. Therefore, it undergoes a series of simulations using a mathematical model (such as a transfer function or state-space model) to mitigate potential failures before the actual launch.
 
-1. For the simulator, G(s) is formed by a numerator and a denominator, both comprising polynomials. Let's consider an example to clarify the process:
+:point_right: 1. For the simulator, G(s) is formed by a numerator and a denominator, both comprising polynomials. Let's consider an example to clarify the process:
 
 $$
 G(s)= \frac{s+2}{s^2+5s +4}
@@ -76,15 +76,15 @@ $$
 \end{align*}
 $$
 
-2. To evaluate performance over time, the __"SIMULATION TIME"__ must be specified, representing the maximum duration of the simulation.
+:point_right: 2. To evaluate performance over time, the __"SIMULATION TIME"__ must be specified, representing the maximum duration of the simulation.
 
-3. The next three slots are reserved for the PID controller parameters(__"Kp", "Ki", "Kd"__). Users can apply tuning techniques to obtain these parameters and make fine adjustments as necessary. Alternatively, one can choose arbitrary values through trial and error for testing purposes.
+:point_right: 3. The next three slots are reserved for the PID controller parameters(__"Kp", "Ki", "Kd"__). Users can apply tuning techniques to obtain these parameters and make fine adjustments as necessary. Alternatively, one can choose arbitrary values through trial and error for testing purposes.
 
 
 
-4. Regarding the __"INPUT"__, commonly referred to as the setpoint, the unit step function is frequently used in testing environments. The simulator offers three distinct inputs: unit step, square wave, and ramp. Users can select the desired input by modifying the dropdown menu.
+:point_right: 4. Regarding the __"INPUT"__, commonly referred to as the setpoint, the unit step function is frequently used in testing environments. The simulator offers three distinct inputs: unit step, square wave, and ramp. Users can select the desired input by modifying the dropdown menu.
 
-5. Once the plant model, simulation time, PID controller parameters, and input signal are specified, the simulator is ready to display the results visually. Simply press the simulation button to initiate the process.
+:point_right: 5. Once the plant model, simulation time, PID controller parameters, and input signal are specified, the simulator is ready to display the results visually. Simply press the simulation button to initiate the process.
 
 If you wish to make any changes, you can delete and rewrite the respective slots or press the __"CLEAN"__ button to start afresh.
 
