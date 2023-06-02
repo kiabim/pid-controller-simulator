@@ -19,8 +19,14 @@ The main objective of this project is to create a simple simulator for testing c
 <div align="justify">
 
  For professionals working with PID controllers, it is well-known that many of the techniques used for tuning these controllers rely on empirical approaches, essentially involving trial and error. Consequently, even after applying tuning techniques, there is no guarantee that the system response will meet the user's expectations. Therefore, it becomes crucial to make adjustments to ensure that the user's desired outcome is achieved.
+
+  $$
+  \
+u(t) = K_p \cdot e(t) + K_i \cdot \int_{0}^{t} e(\tau) d\tau + K_d \cdot \frac{d}{dt} e(t)
+\
+ $$
   
-  The PID controller consists of three parameters (__Kp__, __Ki__, and __Kd__) that can be adjusted to modify the system's dynamics. The challenge lies in finding the optimal set of these parameters to achieve the desired results. This typically involves conducting successive tests, and the simulator proves invaluable in this regard. It aids in declaring variables and qualitatively analyzing the results through visual inspection.
+  The PID controller consists of three parameters (__Kp__, __Ki__, and __Kd__) that can be adjusted to modify the system's dynamics; __u(t)__ and __e(t)__ are control input and error, respectively. The challenge lies in finding the optimal set of these parameters to achieve the desired results. This typically involves conducting successive tests, and the simulator proves invaluable in this regard. It aids in declaring variables and qualitatively analyzing the results through visual inspection.
 
 In summary, this project aims to streamline and optimize the operator's time by providing a user-friendly and intuitive graphical interface for executing tests, eliminating the need for programming knowledge.
   
