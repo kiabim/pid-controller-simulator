@@ -80,9 +80,11 @@ $$
 
 :point_right: 3. The next three slots are reserved for the PID controller parameters(__"Kp", "Ki", "Kd"__). Users can apply tuning techniques to obtain these parameters and make fine adjustments as necessary. Alternatively, one can choose arbitrary values through trial and error for testing purposes.
 
-
-
 :point_right: 4. Regarding the __"INPUT"__, commonly referred to as the setpoint, the unit step function is frequently used in testing environments. The simulator offers three distinct inputs: unit step, square wave, and ramp. Users can select the desired input by modifying the dropdown menu.
+  
+  <div align="center">
+  <img src="https://github.com/kiabim/pid-controller-simulator/assets/134725155/48b791e5-d0b0-4301-80dc-97f08c4cdc6c"/>
+  </div>
 
 :point_right: 5. Once the plant model, simulation time, PID controller parameters, and input signal are specified, the simulator is ready to display the results visually. Simply press the simulation button to initiate the process.
 
@@ -90,7 +92,6 @@ If you wish to make any changes, you can delete and rewrite the respective slots
 
   </div>
 <p align="center">
-  <img src="https://github.com/kiabim/pid-controller-simulator/assets/134725155/48b791e5-d0b0-4301-80dc-97f08c4cdc6c" alt="Imagem 1"/>
   <img src="https://github.com/kiabim/pid-controller-simulator/assets/134725155/c9343a41-3414-401f-9fa0-00fea7f12aa1" alt="Imagem 2"/>
 </p>
 
